@@ -2,12 +2,15 @@ package com.company.DayTwo.paperScissorsRock;
 
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class PSR {
     static String playerChoice;
     static String computerChoice;
 
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args)  {
 
         Scanner game = new Scanner(System.in);
         System.out.println(" Welcome to Paper, Scissors, Rock\n The aim of the game is to beat the computer!!\n Please enter a choice: P, S or R");
@@ -30,7 +33,8 @@ public class PSR {
                 break;
         }
 
-        int randomNumber = (int) Math.floor(Math.random() * 4);
+        int randomNumber = (int) Math.floor(Math.random() * 3);
+
         switch (randomNumber) {
             case 0:
                 System.out.println("Computer chose Paper");
@@ -46,24 +50,26 @@ public class PSR {
                 break;
 
         }
+
+
         if (playerChoice.equals("Rock") && (computerChoice.equals("Scissors"))) {
-            System.out.println("Player Wins");
+            System.out.println("You Win - Rock Beats Scissors");
         } else if (playerChoice.equals("Rock") && (computerChoice.equals("Paper"))) {
-            System.out.println("Player Loses");
+            System.out.println("You Lose - Rock gets wrapped by paper!");
         } else if (playerChoice.equals("Rock") && (computerChoice.equals("Rock"))) {
-            System.out.println("It's a tie!");
+            System.out.println("It's a tie! You both chose Rock");
         } else if (playerChoice.equals("Paper") && (computerChoice.equals("Scissors"))) {
-            System.out.println("Player Loses");
+            System.out.println("You Lose - Paper gets cut up by Scissors!");
         } else if (playerChoice.equals("Paper") && (computerChoice.equals("Rock"))) {
-            System.out.println("Player Wins");
+            System.out.println("You Win - Paper beats Rock ");
         } else if (playerChoice.equals("Paper") && (computerChoice.equals("Paper"))) {
-            System.out.println("It's a tie");
+            System.out.println("It's a tie - You both chose Paper!");
         } else if (playerChoice.equals("Scissors") && (computerChoice.equals("Rock"))) {
-            System.out.println("Player Loses");
+            System.out.println("You Lose - Scissors are smashed by Rock!");
         } else if (playerChoice.equals("Scissors") && (computerChoice.equals("Paper"))) {
-            System.out.println("Player Wins");
+            System.out.println("You Win - Scissors beats Paper");
         } else if (playerChoice.equals("Scissors") && (computerChoice.equals("Scissors"))) {
-            System.out.println("It's a tie!");
+            System.out.println("It's a tie - You both chose Scissors!");
         }
 
 
