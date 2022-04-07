@@ -37,15 +37,15 @@ public class MathMethods {
     // Math.ceil()	It is used to find the smallest integer value that is greater than or equal to the argument or mathematical integer.
     // Math.floor()	It is used to find the largest integer value which is less than or equal to the argument and is equal to the mathematical integer of a double value.
 
-    // https://www.javatpoint.com/java-math - For all of the Math methods
+    // https://www.javatpoint.com/java-math - For all the Math methods
 
 
     //        ****Insert into main method***
 
-//        System.out.println(a);
-//        System.out.println(aWhole);
-//        System.out.println(b);
-//        System.out.println(bWhole);
+    //        System.out.println(a);
+    //        System.out.println(aWhole);
+    //        System.out.println(b);
+    //        System.out.println(bWhole);
 
 
 
