@@ -20,6 +20,8 @@ public class challenge {
             // Advanced -   Each player can roll up to 5 times. They are presented their total score each time and have the decision to "hit" or "stay".
             // Advanced -   The winner of the game is the player with the highest sore under or equal to 21
 
+            // Extra Advanced - Can you make the game repeat? You might need to research "Do-While" in order to achieve this.
+
     // We would like to see you use all Java learning to this point in today's challenge
     // All code must be completed in the MAIN class.  We will organise this once we have finished the challenge.
 }
