@@ -1,7 +1,5 @@
 package com.company.DayTwo.packages;
 
-import com.company.DayTwo.letmecalculate.Calculator;
-
 import java.util.Scanner;
 
 public class Packages {

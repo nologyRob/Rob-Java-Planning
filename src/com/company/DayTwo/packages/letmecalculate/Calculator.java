@@ -1,4 +1,4 @@
-package com.company.DayTwo.letmecalculate;
+package com.company.DayTwo.packages.letmecalculate;
 
 public class Calculator {
 
