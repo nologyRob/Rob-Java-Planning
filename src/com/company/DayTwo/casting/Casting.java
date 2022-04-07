@@ -7,7 +7,7 @@ public class Casting {
     public int castThisOne = (int) 1.5;
 
     // Typecasting lets you take a number of one type and turn it into another type
-    int castPlease = 1.5;
+//    int castPlease = 1.5;
 
     //  What do you think this would show in if we printed this to the console?
 
@@ -23,7 +23,7 @@ public class Casting {
     float f;
     double g;
 
-        int d = c;
+//        int d = c;
 
 
     // create int type variable
