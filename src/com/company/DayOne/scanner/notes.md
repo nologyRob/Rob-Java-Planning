@@ -30,3 +30,8 @@ Numerical input
 
     int age = myScanner.nextInt();
     double salary = myScanner.nextDouble();
+
+## Challenge
+
+    - Write a Java program to get a number from the user and print whether it is positive or negative.
+    - Write a program in Java to input 5 numbers from keyboard and find their sum and average. NOTE:  You will have to use a for loop to get all 5 values.
