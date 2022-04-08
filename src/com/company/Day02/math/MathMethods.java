@@ -1,11 +1,15 @@
-package com.company.DayTwo.casting;
+package com.company.Day02.math;
 
-public class Casting {
+public class MathMethods {
 
     public static void lesson () {
         // Write your code here!
 
     }
+
+
+
+
 
 
 }

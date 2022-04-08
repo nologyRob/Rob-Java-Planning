@@ -1,13 +1,11 @@
-package com.company.DayTwo.math;
+package com.company.Day02.packages;
 
-public class MathMethods {
+public class Packages {
 
     public static void lesson () {
         // Write your code here!
 
     }
-
-
 
 
 

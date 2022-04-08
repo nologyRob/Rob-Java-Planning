@@ -1,13 +1,11 @@
-package com.company.DayTwo.packages;
+package com.company.Day02.casting;
 
-public class Packages {
+public class Casting {
 
     public static void lesson () {
         // Write your code here!
 
     }
-
-
 
 
 }

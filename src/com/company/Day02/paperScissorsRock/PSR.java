@@ -1,4 +1,4 @@
-package com.company.DayTwo.paperScissorsRock;
+package com.company.Day02.paperScissorsRock;
 
 
 public class PSR {

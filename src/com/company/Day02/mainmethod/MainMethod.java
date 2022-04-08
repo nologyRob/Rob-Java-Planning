@@ -1,4 +1,4 @@
-package com.company.DayTwo.mainmethod;
+package com.company.Day02.mainmethod;
 
 public class MainMethod {
 

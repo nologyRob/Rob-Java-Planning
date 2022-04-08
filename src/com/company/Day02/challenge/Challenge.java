@@ -1,4 +1,4 @@
-package com.company.DayTwo.challenge;
+package com.company.Day02.challenge;
 
 public class Challenge {
     //global variables up here if needed ;)
