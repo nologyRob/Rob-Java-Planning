@@ -171,7 +171,7 @@ convert string variable to int
 
 ---
 
-### Challenge - Primitive Type Dictionary
+### Challenge - Dice Black Jack
 
 So far in Java you have learnt about the following:
 - Primitive Data Types
