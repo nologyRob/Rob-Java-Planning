@@ -1,12 +1,18 @@
 package com.company;
 
+import com.company.DayTwo.casting.Casting;
+import com.company.DayTwo.math.MathMethods;
+
 import java.util.Scanner;
 
 public class Main {
 
+    public static void main(String[] args) {
 
-    public static void main(String[] args)  {
-        short s = 20020;
-        System.out.println(s);
+        Casting.lesson();
+        MathMethods.lesson();
     }
+
+
+
 }

@@ -20,6 +20,7 @@ Java will automatically cast up BUT it will not automatically cast down.
     float e;
     double f;
 
+
 What do you think would happen if we tried to do this?
 
     int d = c;

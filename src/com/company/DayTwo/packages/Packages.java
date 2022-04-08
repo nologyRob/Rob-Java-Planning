@@ -1,9 +1,11 @@
 package com.company.DayTwo.packages;
 
-import java.util.Scanner;
-
 public class Packages {
 
+    public static void lesson () {
+        // Write your code here!
+
+    }
 
 
 
