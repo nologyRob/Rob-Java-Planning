@@ -47,6 +47,21 @@
 
 - NOTE discuss how this is not a great way to do it (should use Encapsulation but will learn about this later in the lesson)
 
+
+     
+
+#### Discuss constructors here?
+
+
+    public Car(int doors, int wheels, String model, String color) {
+      this.doors = doors;
+      this.wheels = wheels;
+      this.model = model;
+      this.color = color;
+    }
+
+    Car kia = new Car(4,4,"Sportage","White");
+
 ---
 
 ## Four Pillars
@@ -59,7 +74,7 @@ Discuss/share the four pillars
 
 ### Abstraction:
 
-- Discuss how we will be acheiving this down the line through the use of abstract classes and interfaces.
+- Discuss how we will be achieving this down the line through the use of abstract classes and interfaces.
 
 ### Encapsulation:
 
@@ -122,6 +137,7 @@ In the 'Main' class, create an object of the subclass 'Dog'.
             }
         }
 #### Why use inheritance? 
+
 - Short answer - Because developers are lazy! 
 - The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. 
 - When you inherit from an existing class, you can reuse methods and fields of the parent class. 
@@ -181,5 +197,12 @@ In the 'Main' class, create an object of the subclass 'Dog'.
 
 ---
 ## Challenge
-
+- Thinking something along the lines of some sort of 'Animal Crew Creator' game.
+- Students must create Dog, Cat, Rabbit, Gold Fish classes that extend Animal.
+- Use the command line to get user to choose how many animals they want in their animal crew.
+- If the user were to select 5.  5 random animals would be instantiated and their type of animal and a message would be shown in the command line.
+- Encapsulation must be used (private fields and getters/setters)
+- Inheritance must be used (Extending animal)
+- Constructors must be used for sub-classes.
+- Polymorphism might be used via method overriding.
 ---
