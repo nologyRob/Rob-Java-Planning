@@ -10,6 +10,45 @@
 - See curriculum documentation repository
 ---
 
+## Classes - Do we need to teach constructors at the same time? Surely
+
+    public class Car {
+
+    }
+
+- Discuss naming convention for classes
+- Discuss public/private/protected
+- Reinforce that classes are BLUEPRINTS for creating Objects.
+- Create some fields/member variables
+- Discuss modifiers/access.
+
+
+    public class Car {
+      public int doors;
+      public int wheels;
+      public String model;
+      public String color;
+
+    }
+
+- Discuss/show how to create an OBJECT using this class/blueprint in the Main Method.
+
+    
+      Car honda = new Car();
+      Car kia = new Car();
+
+- We have just created two new objects.  Accord and Sportage. 
+
+
+      honda.doors = 4;
+      honda.wheels = 2;
+      honda.model = "Accord";
+      honda.model = "White";
+
+- NOTE discuss how this is not a great way to do it (should use Encapsulation but will learn about this later in the lesson)
+
+---
+
 ## Four Pillars
 Discuss/share the four pillars
 
@@ -18,11 +57,11 @@ Discuss/share the four pillars
 - Inheritance
 - Polymorphism
 
-###Abstraction:
+### Abstraction:
 
 - Discuss how we will be acheiving this down the line through the use of abstract classes and interfaces.
 
-###Encapsulation:
+### Encapsulation:
 
 - Show has we can use private variables in our classes to bundle data and methods that work on that data within one unit, the class.
 - If we do this, we have to bring in the use of getters/setters (show the fast way of doing this via right-click etc)
@@ -131,9 +170,7 @@ In the 'Main' class, create an object of the subclass 'Dog'.
 - Thus, allowing us to achieve the same action in many different ways.
 
 ---
-## Classes
 
----
 
 ## Modifiers
 
